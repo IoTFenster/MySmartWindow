@@ -1,5 +1,6 @@
 # MySmartWindow
 Documentation about the devices available in the MySmartWindow APP. 
+
 Although, if the user want some information about how to add this integration, we could provide some information, There are some steps that you have to follow to add it:
 
 1. Get the add-on From HACS.
