@@ -6,5 +6,6 @@
   "render_readme": true,
   "iot_class": "Local Push",
   "filename": "custom_components/mi_smart_window",
+  "logo": "custom_components/mysmartwindow/Logo_mysmartwindow.png"
   "zip_release": false
 }
