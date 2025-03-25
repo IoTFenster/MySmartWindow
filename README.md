@@ -1,15 +1,22 @@
-# My Smart Window
+# MySmartWindow
+MySmartWindow is a mobile app that let you manage the devices of your windows, and now, is a integration for Home Assistant, Where the user have the same functionality that he has on the app.
 
-My Smart Window es una integración para Home Assistant que permite controlar y monitorear ventanas inteligentes a través de sockets.
+With this integration, you can control and manage your sensors, blinds, leds... 
+Furthemore, you have the options to do custom automations.
 
 # MySmartWindow
 Documentation about the devices available in the MySmartWindow APP. 
 
-Although, if the user want some information about how to add this integration, we could provide some information, There are some steps that you have to follow to add it:
+Although, if the user want some information about how to add this integration, we could provide it, There are some steps that you have to follow to add it:
 
-1. From this link: https://www.mysmartwindow.com:22230/training/index.html, you need to be register as developer and using the validation code from the app MySmartWindow, you are going to get your Access Token.
-2. Get the add-on From HACS
-3. Go to services and devices
-4. Click on Add integration and search MySmartWindow, then you are going to introduce your access token
+1. From this link: https://www.mysmartwindow.com:22230/training/index.html, you need to be register as developer and using the validation code from the app MySmartWindow (it gets the option of the integration), you are going to get your Access Token.
+2. Get the add-on From HACS.
+3. Go to services and devices.
+4. Click on Add integration and search MySmartWindow, then you are going to introduce your access token.
 5. Eventually, you are ready to use your devices from the App on Home Assistant.
+
+# Requirements
+The connection is socket, Therefore, to use this integration, you have to have the devices and home assistant at the same network, subnets are allowed. 
+
+
 
