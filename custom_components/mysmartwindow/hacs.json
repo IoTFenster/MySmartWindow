@@ -4,7 +4,7 @@
   "domain": "mysmartwindow",
   "homeassistant": "2023.1.0",
   "repo": "https://github.com/IoTFenster/MySmartWindow",
-  "documentation": "https://github.com/IoTFenster/MySmartWindow/blob/main/README.md",
+  "documentation": "https://github.com/IoTFenster/MySmartWindow/blob/main/custom_components/mysmartwindow/README.md",
   "issue_tracker": "https://github.com/IoTFenster/MySmartWindow/issues",
   "source": "custom_components/mysmartwindow",
   "version": "1.0.0",
