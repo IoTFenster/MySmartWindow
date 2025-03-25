@@ -4,7 +4,7 @@ MySmartWindow is a mobile app that let you manage the devices of your windows, a
 With this integration, you can control and manage your sensors, blinds, leds... 
 Furthemore, you have the options to do custom automations.
 
-# MySmartWindow
+# Integration MySmartWindow
 Documentation about the devices available in the MySmartWindow APP. 
 
 Although, if the user want some information about how to add this integration, we could provide it, There are some steps that you have to follow to add it:
