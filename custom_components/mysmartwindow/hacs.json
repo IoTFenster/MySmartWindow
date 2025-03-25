@@ -7,5 +7,7 @@
   "iot_class": "Local Push",
   "filename": "custom_components/mi_smart_window",
   "logo": "custom_components/mysmartwindow/Logo_mysmartwindow.png"
+  "source": "custom_components/mysmartwindow",
+  "version": "1.0.0",
   "zip_release": false
 }
