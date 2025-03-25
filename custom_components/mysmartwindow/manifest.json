@@ -2,9 +2,9 @@
   "domain": "mysmartwindow",
   "name": "MySmartWindow",
   "version": "1.0.0",
-  "documentation": "https://github.com/IoTFenster/MySmartWindow.git",
+  "documentation": "https://github.com/IoTFenster/MySmartWindow",
   "dependencies": ["network"],
-  "codeowners": ["IoT Fenster"],
+  "codeowners": ["IoTFenster"],
   "iot_class": "local_polling",
   "config_flow": true
 }
