@@ -17,3 +17,5 @@ Although, if the user want some information about how to add this integration, w
 
 # Requirements
 The connection is socket, Therefore, to use this integration, you have to have the devices and home assistant at the same network, subnets are allowed. 
+
+![](https://github.com/IoTFenster/MySmartWindow/blob/ae4087c2d41e5f162bde280304db29fb73a76745/custom_components/mysmartwindow/icon.png)
