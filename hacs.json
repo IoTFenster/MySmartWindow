@@ -3,7 +3,6 @@
   "country": "ES",
   "homeassistant": "2025.1.0",
   "render_readme": true,
-  "iot_class": "Local Push",
   "filename": "custom_components/mi_smart_window",
   "zip_release": false
 }
