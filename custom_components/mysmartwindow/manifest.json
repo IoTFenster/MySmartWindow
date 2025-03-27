@@ -1,6 +1,6 @@
 {
-  "domain": "mysmartwindow",
   "name": "MySmartWindow",
+  "domain": "mysmartwindow",
   "version": "1.0.0",
   "documentation": "https://github.com/IoTFenster/MySmartWindow",
   "issue_tracker": "https://github.com/IoTFenster/MySmartWindow/issues",
