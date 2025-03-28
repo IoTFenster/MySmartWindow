@@ -20,6 +20,19 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
     hass.data[DOMAIN]["devices"] = devices
     _LOGGER.info("Dispositivos cargados en hass.data: %s", devices)
 
+    async def handle_open_window(call):
+        """Abrir la ventana."""
+        entity_id = call.data.get("entity_id")
+        _LOGGER.info("Abriendo ventana: %s", entity_id)
+
+    async def handle_close_window(call):
+        """Cerrar la ventana."""
+        entity_id = call.data.get("entity_id")
+        _LOGGER.info("Cerrando ventana: %s", entity_id)
+
+    async_register_admin_service(hass, DOMAIN, "open_window", handle_open_window, schema=None)
+    async_register_admin_service(hass, DOMAIN, "close_window", handle_close_window, schema=None)
+
     device_registry = async_get_device_registry(hass)
 
     # Registrar cada dispositivo en el sistema de dispositivos de HA
