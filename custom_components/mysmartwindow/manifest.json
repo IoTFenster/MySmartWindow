@@ -1,11 +1,11 @@
 {
   "domain": "mysmartwindow",
   "name": "MySmartWindow",
-  "config_flow": true,
-  "documentation": "https://github.com/IoTFenster/MySmartWindow",
-  "issue_tracker": "https://github.com/IoTFenster/MySmartWindow/issues",
-  "dependencies": ["network"],
   "codeowners": ["@IoTFenster"],
+  "config_flow": true,
+  "dependencies": ["network"],
+  "documentation": "https://github.com/IoTFenster/MySmartWindow",
   "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/IoTFenster/MySmartWindow/issues",
   "version": "1.0.0"
 }
