@@ -3,6 +3,6 @@
   "country": "ES",
   "homeassistant": "2025.1.0",
   "render_readme": true,
-  "filename": "custom_components/mi_smart_window",
+  "filename": "custom_components/mysmartwindow",
   "zip_release": false
 }
