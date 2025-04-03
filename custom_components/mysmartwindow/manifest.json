@@ -1,7 +1,7 @@
 {
   "domain": "mysmartwindow",
   "name": "MySmartWindow",
-  "codeowners": ["@IoTFenster"],
+  "codeowners": ["IoTFenster"],
   "config_flow": true,
   "dependencies": ["network"],
   "documentation": "https://github.com/IoTFenster/MySmartWindow",
