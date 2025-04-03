@@ -7,5 +7,5 @@
   "documentation": "https://github.com/IoTFenster/MySmartWindow",
   "iot_class": "local_polling",
   "issue_tracker": "https://github.com/IoTFenster/MySmartWindow/issues",
-  "version": "1.0.2"
+  "version": "1.0.4"
 }
