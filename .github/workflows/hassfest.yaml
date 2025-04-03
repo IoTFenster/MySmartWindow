@@ -8,13 +8,7 @@ on:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: "ubuntu-latest"
     steps:
-      - uses: actions/checkout@v3
-      - name: Run hassfest without service validation
-        run: |
-          if ! grep -q "services.yaml" custom_components/mysmartwindow; then
-            echo "Skipping service validation"
-          else
-            home-assistant/actions/hassfest@master
-          fi
+      - uses: "actions/checkout@v3"
+      - uses: home-assistant/actions/hassfest@master
