@@ -207,7 +207,7 @@ class MySmartWindowCover(CoverEntity):
                         position_120 = int(mensaje["value"])  # Convertir a entero
                         new_position = int(100 - (position_120 / 120 * 100))  # Convertir de 120-0 a 0-100
                         
-                        # 🔹 Solo actualizar si el valor es válido
+                        # Solo actualizar si el valor es válido
                         if 0 <= new_position <= 100:
                             if new_position != self._current_position:
                                 self._current_position = new_position
@@ -226,3 +226,4 @@ class MySmartWindowCover(CoverEntity):
                 
         except Exception as e:
             _LOGGER.error("Error obteniendo estado de %s: %s", self._attr_name, e)
+
