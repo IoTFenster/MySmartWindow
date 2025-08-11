@@ -120,7 +120,7 @@ class MySmartWindowSensor(SensorEntity):
             writer.close()
             
             await writer.wait_closed()  # Cierra la conexión correctamente
-            # 🔹 Intentar parsear JSON
+            # Intentar parsear JSON
             try:
                 
                 response_json = json.loads(response.decode()) 
@@ -139,4 +139,5 @@ class MySmartWindowSensor(SensorEntity):
         except Exception as e:
             _LOGGER.error("Error obteniendo valor del sensor %s: %s", self._attr_name, e)
     
+
         return self._sensor["value"]  # Devuelve el último valor conocido si falla
