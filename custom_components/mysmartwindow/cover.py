@@ -68,7 +68,7 @@ class MySmartWindowCover(CoverEntity):
             "model": "Smart Cover",
         }
 
-        # Estado inicial
+        # Estado inicial.
         self._current_position = 0  # Posición inicial de la persiana (0-100)
         self._attr_is_opening = False
         self._attr_is_closing = False
@@ -226,4 +226,5 @@ class MySmartWindowCover(CoverEntity):
                 
         except Exception as e:
             _LOGGER.error("Error obteniendo estado de %s: %s", self._attr_name, e)
+
 
